@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA3B2BAA2A139A8B006EFDEB /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3B2BA92A139A8B006EFDEB /* APIManager.swift */; };
+		FA3B2BAD2A139B3F006EFDEB /* CounrtyDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3B2BAC2A139B3F006EFDEB /* CounrtyDetailsVC.swift */; };
+		FA3B2BB12A139B75006EFDEB /* SkeletonView in Frameworks */ = {isa = PBXBuildFile; productRef = FA3B2BB02A139B75006EFDEB /* SkeletonView */; };
+		FA3B2BB42A139B89006EFDEB /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = FA3B2BB32A139B89006EFDEB /* SnapKit */; };
+		FA3B2BB62A139BC2006EFDEB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3B2BB52A139BC2006EFDEB /* Model.swift */; };
+		FA3B2BB92A139C42006EFDEB /* CountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3B2BB82A139C42006EFDEB /* CountryTableViewCell.swift */; };
+		FA3B2BBB2A13B37F006EFDEB /* DetailsViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3B2BBA2A13B37F006EFDEB /* DetailsViewVC.swift */; };
+		FA3B2BBE2A13E4B9006EFDEB /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3B2BBD2A13E4B9006EFDEB /* ImageCache.swift */; };
+		FAEAADE32A0EB347001A0D22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEAADE22A0EB347001A0D22 /* AppDelegate.swift */; };
+		FAEAADE52A0EB347001A0D22 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEAADE42A0EB347001A0D22 /* SceneDelegate.swift */; };
+		FAEAADE72A0EB347001A0D22 /* CountriesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEAADE62A0EB347001A0D22 /* CountriesListVC.swift */; };
+		FAEAADEC2A0EB348001A0D22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAEAADEB2A0EB348001A0D22 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA3B2BA92A139A8B006EFDEB /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		FA3B2BAC2A139B3F006EFDEB /* CounrtyDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounrtyDetailsVC.swift; sourceTree = "<group>"; };
+		FA3B2BB52A139BC2006EFDEB /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		FA3B2BB82A139C42006EFDEB /* CountryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryTableViewCell.swift; sourceTree = "<group>"; };
+		FA3B2BBA2A13B37F006EFDEB /* DetailsViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewVC.swift; sourceTree = "<group>"; };
+		FA3B2BBD2A13E4B9006EFDEB /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		FAEAADDF2A0EB347001A0D22 /* GeographicAtlas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeographicAtlas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEAADE22A0EB347001A0D22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAEAADE42A0EB347001A0D22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FAEAADE62A0EB347001A0D22 /* CountriesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesListVC.swift; sourceTree = "<group>"; };
+		FAEAADEB2A0EB348001A0D22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAEAADF02A0EB348001A0D22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAEAADDC2A0EB347001A0D22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3B2BB12A139B75006EFDEB /* SkeletonView in Frameworks */,
+				FA3B2BB42A139B89006EFDEB /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA3B2BA42A1399F5006EFDEB /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				FAEAADE22A0EB347001A0D22 /* AppDelegate.swift */,
+				FAEAADE42A0EB347001A0D22 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		FA3B2BA62A139A55006EFDEB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FAEAADEB2A0EB348001A0D22 /* Assets.xcassets */,
+				FAEAADF02A0EB348001A0D22 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FA3B2BA72A139A69006EFDEB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FA3B2BA92A139A8B006EFDEB /* APIManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FA3B2BAB2A139B1F006EFDEB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FAEAADE62A0EB347001A0D22 /* CountriesListVC.swift */,
+				FA3B2BAC2A139B3F006EFDEB /* CounrtyDetailsVC.swift */,
+				FA3B2BBA2A13B37F006EFDEB /* DetailsViewVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FA3B2BAE2A139B55006EFDEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA3B2BB82A139C42006EFDEB /* CountryTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA3B2BB72A139BC6006EFDEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA3B2BB52A139BC2006EFDEB /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA3B2BBC2A13E4A5006EFDEB /* ImageCache */ = {
+			isa = PBXGroup;
+			children = (
+				FA3B2BBD2A13E4B9006EFDEB /* ImageCache.swift */,
+			);
+			path = ImageCache;
+			sourceTree = "<group>";
+		};
+		FAEAADD62A0EB347001A0D22 = {
+			isa = PBXGroup;
+			children = (
+				FAEAADE12A0EB347001A0D22 /* GeographicAtlas */,
+				FAEAADE02A0EB347001A0D22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAEAADE02A0EB347001A0D22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAEAADDF2A0EB347001A0D22 /* GeographicAtlas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAEAADE12A0EB347001A0D22 /* GeographicAtlas */ = {
+			isa = PBXGroup;
+			children = (
+				FA3B2BA42A1399F5006EFDEB /* Application */,
+				FA3B2BA72A139A69006EFDEB /* Network */,
+				FA3B2BAB2A139B1F006EFDEB /* ViewControllers */,
+				FA3B2BAE2A139B55006EFDEB /* View */,
+				FA3B2BB72A139BC6006EFDEB /* Model */,
+				FA3B2BBC2A13E4A5006EFDEB /* ImageCache */,
+				FA3B2BA62A139A55006EFDEB /* Resources */,
+			);
+			path = GeographicAtlas;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAEAADDE2A0EB347001A0D22 /* GeographicAtlas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAEAADF32A0EB348001A0D22 /* Build configuration list for PBXNativeTarget "GeographicAtlas" */;
+			buildPhases = (
+				FAEAADDB2A0EB347001A0D22 /* Sources */,
+				FAEAADDC2A0EB347001A0D22 /* Frameworks */,
+				FAEAADDD2A0EB347001A0D22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeographicAtlas;
+			packageProductDependencies = (
+				FA3B2BB02A139B75006EFDEB /* SkeletonView */,
+				FA3B2BB32A139B89006EFDEB /* SnapKit */,
+			);
+			productName = GeographicAtlas;
+			productReference = FAEAADDF2A0EB347001A0D22 /* GeographicAtlas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAEAADD72A0EB347001A0D22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					FAEAADDE2A0EB347001A0D22 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = FAEAADDA2A0EB347001A0D22 /* Build configuration list for PBXProject "GeographicAtlas" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAEAADD62A0EB347001A0D22;
+			packageReferences = (
+				FA3B2BAF2A139B75006EFDEB /* XCRemoteSwiftPackageReference "SkeletonView" */,
+				FA3B2BB22A139B89006EFDEB /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = FAEAADE02A0EB347001A0D22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAEAADDE2A0EB347001A0D22 /* GeographicAtlas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAEAADDD2A0EB347001A0D22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEAADEC2A0EB348001A0D22 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAEAADDB2A0EB347001A0D22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3B2BBB2A13B37F006EFDEB /* DetailsViewVC.swift in Sources */,
+				FA3B2BAA2A139A8B006EFDEB /* APIManager.swift in Sources */,
+				FAEAADE72A0EB347001A0D22 /* CountriesListVC.swift in Sources */,
+				FAEAADE32A0EB347001A0D22 /* AppDelegate.swift in Sources */,
+				FA3B2BB62A139BC2006EFDEB /* Model.swift in Sources */,
+				FAEAADE52A0EB347001A0D22 /* SceneDelegate.swift in Sources */,
+				FA3B2BB92A139C42006EFDEB /* CountryTableViewCell.swift in Sources */,
+				FA3B2BBE2A13E4B9006EFDEB /* ImageCache.swift in Sources */,
+				FA3B2BAD2A139B3F006EFDEB /* CounrtyDetailsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FAEAADF12A0EB348001A0D22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAEAADF22A0EB348001A0D22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAEAADF42A0EB348001A0D22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2SQ428B324;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GeographicAtlas/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aidos.GeographicAtlas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAEAADF52A0EB348001A0D22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2SQ428B324;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GeographicAtlas/Resources/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aidos.GeographicAtlas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAEAADDA2A0EB347001A0D22 /* Build configuration list for PBXProject "GeographicAtlas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEAADF12A0EB348001A0D22 /* Debug */,
+				FAEAADF22A0EB348001A0D22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAEAADF32A0EB348001A0D22 /* Build configuration list for PBXNativeTarget "GeographicAtlas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEAADF42A0EB348001A0D22 /* Debug */,
+				FAEAADF52A0EB348001A0D22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FA3B2BAF2A139B75006EFDEB /* XCRemoteSwiftPackageReference "SkeletonView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Juanpe/SkeletonView.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		FA3B2BB22A139B89006EFDEB /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FA3B2BB02A139B75006EFDEB /* SkeletonView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA3B2BAF2A139B75006EFDEB /* XCRemoteSwiftPackageReference "SkeletonView" */;
+			productName = SkeletonView;
+		};
+		FA3B2BB32A139B89006EFDEB /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA3B2BB22A139B89006EFDEB /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FAEAADD72A0EB347001A0D22 /* Project object */;
+}
