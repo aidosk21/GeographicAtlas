@@ -1,7 +1,7 @@
 # GeographicAtlas :earth_americas:
 ## iOS test assignment for the STRONG TEAM
 
-Project Demo video: [Demo](https://pages.github.com/) 
+Project Demo video: [Demo](https://drive.google.com/file/d/1rN3mxiq218AnD2-k-0lanQIspnTUrTx1/view?usp=share_link) 
 
 Implemented additional features from the “Advanced” section: 
 1. I used programmatic AutoLayout + SnaKit in my project. :triangular_ruler:
